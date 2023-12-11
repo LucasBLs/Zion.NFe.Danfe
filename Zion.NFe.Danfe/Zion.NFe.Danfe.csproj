@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Alejandro Pietry</Authors>
-    <Company>Econet Editora Empresarial</Company>
+    <Authors></Authors>
+    <Company></Company>
     <Description>Econet DacteDanfe é uma biblioteca em C# que permite a geração do DANFE e do DACTE em formato PDF. Com muitas possibilidades!
 Feito em netstandard2.0 é multiplataforma.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright ©  2022</Copyright>
     <NeutralLanguage>pt-BR</NeutralLanguage>
-    <PackageProjectUrl>https://www.nuget.org/packages/Econet.DanfeDacte</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/AlejandroPietry/Econet.DanfeDacte</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Danfe Nfe Dacte Dfe Cte </PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
@@ -22,7 +22,7 @@ Feito em netstandard2.0 é multiplataforma.</Description>
     <StartupObject />
     <PackageId>Econet.DanfeDacte</PackageId>
     <Product>Econet.DanfeDacte</Product>
-    <PackageIcon>document_paperclip_list_paper_icon_219514.png</PackageIcon>
+    <!-- <PackageIcon>document_paperclip_list_paper_icon_219514.png</PackageIcon> -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
