@@ -229,6 +229,19 @@ namespace DanfeSharp.Esquemas.NFe
         public string xPed { get; set; }
         public string nItemPed { get; set; }
         public string nFCI { get; set; }
+
+        [XmlElement("rastro")]
+        public List<RastroProduto> rastro { get; set; }
+    }
+
+    [Serializable]
+    [XmlType(AnonymousType = true, Namespace = Namespaces.NFe)]
+    public class RastroProduto
+    {
+        public string nLote { get; set; }
+        public decimal qLote { get; set; }
+        public DateTime dFab { get; set; }
+        public DateTime dVal { get; set; }
     }
 
 

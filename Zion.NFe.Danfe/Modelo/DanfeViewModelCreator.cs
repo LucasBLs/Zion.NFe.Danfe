@@ -234,9 +234,15 @@ namespace Zion.NFe.Danfe.Modelo
             foreach (var det in infNfe.det)
             {
                 ProdutoViewModel produto = new ProdutoViewModel();
-                //produto.Codigo = det.prod.cProd;
-                produto.Codigo = det.prod.cEAN;
-                produto.Descricao = det.prod.xProd;
+                produto.Codigo = det.prod.cProd;
+                //produto.Codigo = det.prod.cEAN;
+                produto.Descricao = $"{det.prod.xProd}; EAN: {det.prod.cEAN}\n";
+
+                foreach (var rastro in det.prod.rastro)
+                {
+                    produto.Descricao += $"LOTE: {rastro.qLote} - VALIDADE: {rastro.dVal.ToShortDateString()}\n";
+                }
+
                 produto.Ncm = det.prod.NCM;
                 produto.Cfop = det.prod.CFOP;
                 produto.Unidade = det.prod.uCom;
