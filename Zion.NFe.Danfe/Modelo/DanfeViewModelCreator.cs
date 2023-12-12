@@ -240,7 +240,7 @@ namespace Zion.NFe.Danfe.Modelo
 
                 foreach (var rastro in det.prod.rastro)
                 {
-                    produto.Descricao += $"LOTE: {rastro.qLote} - VALIDADE: {rastro.dVal.ToShortDateString()}\n";
+                    produto.Descricao += $"LOTE: {rastro.nLote} - VALIDADE: {rastro.dVal.ToShortDateString()}\n";
                 }
 
                 produto.Ncm = det.prod.NCM;
