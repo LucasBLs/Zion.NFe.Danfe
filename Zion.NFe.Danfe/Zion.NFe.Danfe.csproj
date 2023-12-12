@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors></Authors>
+    <Authors>Lucas Lemos</Authors>
     <Company></Company>
     <Description>Econet DacteDanfe é uma biblioteca em C# que permite a geração do DANFE e do DACTE em formato PDF. Com muitas possibilidades!
-Feito em netstandard2.0 é multiplataforma.</Description>
+Feito em netstandard2.0 é multiplataforma. 
+Essa é uma customização realizada por Lucas Lemos</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Copyright>Copyright ©  2022</Copyright>
+    <Copyright>Copyright ©2023</Copyright>
     <NeutralLanguage>pt-BR</NeutralLanguage>
     <PackageProjectUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</PackageProjectUrl>
     <RepositoryUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</RepositoryUrl>
@@ -20,9 +21,9 @@ Feito em netstandard2.0 é multiplataforma.</Description>
     <ApplicationIcon />
     <OutputType>Library</OutputType>
     <StartupObject />
-    <PackageId>Econet.DanfeDacte</PackageId>
-    <Product>Econet.DanfeDacte</Product>
-    <!-- <PackageIcon>document_paperclip_list_paper_icon_219514.png</PackageIcon> -->
+    <PackageId>ImprimirDanfeL</PackageId>
+    <Product>ImprimirDanfeL</Product>
+    <PackageIcon>document_paperclip_list_paper_icon_219514.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
