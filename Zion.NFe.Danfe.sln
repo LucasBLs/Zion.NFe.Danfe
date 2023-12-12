@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zion.NFe.Danfe", "Zion.NFe.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zion.NFe.Danfe.WebService", "Zion.NFe.Danfe.WebService\Zion.NFe.Danfe.WebService.csproj", "{083BCE57-4FB0-4F4E-B9F8-5B80EEA85B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zion.NFe.Danfe_470_Test", "Zion.NFe.Danfe_470_Test\Zion.NFe.Danfe_470_Test.csproj", "{6C28937E-C487-41E5-9856-59C688D7919A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
