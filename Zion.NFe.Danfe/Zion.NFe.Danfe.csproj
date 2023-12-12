@@ -1,10 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alexandre Laranjeiras</Authors>
     <PackageId>ImprimirDanfeL</PackageId>
     <Version>1.0.0</Version>
     <License>MIT</License>
-    <Authors>Lucas Lemos</Authors>
     <PackageDescription>Gerar nota fiscal em pdf</PackageDescription>
     <Description>Convert decimal to integer</Description>
     <RepositoryUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</RepositoryUrl>
