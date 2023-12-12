@@ -1,30 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Lucas Lemos</Authors>
-    <Company></Company>
-    <Description>Econet DacteDanfe é uma biblioteca em C# que permite a geração do DANFE e do DACTE em formato PDF. Com muitas possibilidades!
-Feito em netstandard2.0 é multiplataforma. 
-Essa é uma customização realizada por Lucas Lemos</Description>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Copyright>Copyright ©2023</Copyright>
-    <NeutralLanguage>pt-BR</NeutralLanguage>
-    <PackageProjectUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageTags>Danfe Nfe Dacte Dfe Cte </PackageTags>
-    <PackageReleaseNotes></PackageReleaseNotes>
-    <AssemblyVersion>2.1.0.1</AssemblyVersion>
-    <FileVersion>2.1.0.1</FileVersion>
-    <Version>2.1.0.1</Version>
-    <ApplicationIcon />
-    <OutputType>Library</OutputType>
-    <StartupObject />
     <PackageId>ImprimirDanfeL</PackageId>
-    <Product>ImprimirDanfeL</Product>
-    <PackageIcon>document_paperclip_list_paper_icon_219514.png</PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Lucas Lemos</Authors>
+    <PackageDescription>Gerar nota fiscal em pdf</PackageDescription>
+    <Description>Convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/LucasBLs/Zion.NFe.Danfe</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!-- <PackageIcon>icon.png</PackageIcon> -->
+    <PackageTags>danfe,nota,imprimir</PackageTags>
+    <Title>ImprimirDanfeL</Title>
+    <Summary>Gerar nota fiscal em pdf</Summary>  
   </PropertyGroup>
 
   <ItemGroup>
