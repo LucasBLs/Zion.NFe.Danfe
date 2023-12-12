@@ -14,6 +14,7 @@ namespace Zion.NFe.Danfe.Modelo
     public static class DanfeViewModelCreator
     {
         public readonly static IEnumerable<FormaEmissao> FormasEmissaoSuportadas = new FormaEmissao[] { FormaEmissao.Normal, FormaEmissao.ContingenciaSVCAN, FormaEmissao.ContingenciaSVCRS };
+        public static Orientacao TipoOrientacao { get; set; } = Orientacao.Automatico;
 
         private static EmpresaViewModel CreateEmpresaFrom(Empresa empresa)
         {
@@ -198,7 +199,10 @@ namespace Zion.NFe.Danfe.Modelo
             if (!FormasEmissaoSuportadas.Contains(model.TipoEmissao))
                 throw new NotSupportedException($"O tpEmis {ide.tpEmis} não é suportado.");
 
-            model.Orientacao = ide.tpImp == 1 ? Orientacao.Retrato : Orientacao.Paisagem;
+            if(TipoOrientacao == Orientacao.Automatico)
+                model.Orientacao = ide.tpImp == 1 ? Orientacao.Retrato : Orientacao.Paisagem;
+            else 
+                model.Orientacao = TipoOrientacao;
 
             var infProt = procNfe.protNFe.infProt;
             model.CodigoStatusReposta = infProt.cStat;

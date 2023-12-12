@@ -3,6 +3,7 @@
     public enum Orientacao
     {
         Retrato,
-        Paisagem
+        Paisagem,
+        Automatico
     }
 }
